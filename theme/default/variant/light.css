@@ -1,0 +1,14 @@
+:root {
+  /* Colors */
+  --t-c-primary: var(--c-primary-700);
+
+  /* Components */
+  --t-site__bg-color: hsl(240, 95%, 95%);
+  --t-site__fg-color: hsl(240, 10%, 10%);
+  --t-site__text-shadow: none;
+
+  --t-header__bg-color: transparent;
+  --t-header__border-color: hsl(240, 5%, 5%, 0.25);
+
+  --t-headline__bg-image: linear-gradient(90deg, var(--c-primary-300) 55%, var(--c-primary-300) 100%);
+}
