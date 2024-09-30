@@ -1,5 +1,4 @@
 {
-  "background_color": "#176432",
   "categories": [
     "education",
     "news",
@@ -9,44 +8,13 @@
   "display": "standalone",
   "icons": [
     {
-      "sizes": "192x192",
-      "src": "https://abs.twimg.com/responsive-web/client-web/icon-default.522d363a.png",
-      "type": "image/png"
-    },
-    {
-      "sizes": "512x512",
-      "src": "https://abs.twimg.com/responsive-web/client-web/icon-default-large.9ab12c3a.png",
-      "type": "image/png"
-    },
-    {
-      "purpose": "maskable",
-      "sizes": "192x192",
-      "src": "https://abs.twimg.com/responsive-web/client-web/icon-default-maskable.bacea37a.png",
-      "type": "image/png"
-    },
-    {
-      "purpose": "maskable",
-      "sizes": "512x512",
-      "src": "https://abs.twimg.com/responsive-web/client-web/icon-default-maskable-large.35928fda.png",
-      "type": "image/png"
+      "type": "image/png",
+      "src": "./static/image/llll-192.png",
+      "sizes": "192x192"
     }
   ],
-  "name": "Lean Low-Level Lessions",
-  "scope": "/",
-  "short_name": "LLLL",
-  "shortcuts": [
-    {
-      "icons": [
-        {
-          "sizes": "192x192",
-          "src": "https://abs.twimg.com/responsive-web/client-web/icon-compose.1238442a.png",
-          "type": "image/png"
-        }
-      ],
-      "name": "New post",
-      "url": "/compose/post?utm_source=jumplist&utm_medium=shortcut"
-    }
-  ],
-  "start_url": "https://llll.dev/?source=homescreen&medium=shortcut",
-  "theme_color": "#e04692"
+  "name": "Lean Low-Level Lessons",
+  "orientation": "any",
+  "short_name": "llll.dev",
+  "start_url": "."
 }
